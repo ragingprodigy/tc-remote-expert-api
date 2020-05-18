@@ -6,7 +6,7 @@ module.exports = {
   PORT: +env.PORT || 8000,
   NODE_ENV: env.NODE_ENV || 'development',
   DB_DIALECT: env.DB_DIALECT || 'mongodb',
-  DB_HOST: env.DB_HOST || 'localhost',
+  DB_HOST: env.DB_HOST || '127.0.0.1',
   DB_DATABASE: env.DB_DATABASE || 'remote_expert',
   DB_USERNAME: env.DB_USERNAME || 'root',
   DB_PASSWORD: env.DB_PASSWORD || 'rootpass',
